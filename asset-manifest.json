@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sprithvi10/pattern-grid.git/static/css/main.4b2783b3.css",
+    "main.js": "/sprithvi10/pattern-grid.git/static/js/main.e5c4cf60.js",
+    "index.html": "/sprithvi10/pattern-grid.git/index.html",
+    "main.4b2783b3.css.map": "/sprithvi10/pattern-grid.git/static/css/main.4b2783b3.css.map",
+    "main.e5c4cf60.js.map": "/sprithvi10/pattern-grid.git/static/js/main.e5c4cf60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b2783b3.css",
+    "static/js/main.e5c4cf60.js"
+  ]
+}
