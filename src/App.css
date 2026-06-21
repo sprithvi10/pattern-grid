@@ -44,6 +44,17 @@
   );
 }
 
+/* Subtle grid background */
+.hero-bg-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(#ffffff0f 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff0f 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+}
+
 /*  NAV  */
 .pg-nav {
   display: flex;
@@ -51,7 +62,7 @@
   justify-content: space-between;
   padding: 1rem 2rem;
   border-bottom: 1px solid var(--pg-border);
-  background: rgba(8, 8, 16, 0.8);
+  background: var(--pg-surface);
   backdrop-filter: blur(8px);
   position: sticky;
   top: 0;
@@ -91,6 +102,7 @@
 
 /*  SCREEN WRAPPER  */
 .pg-screen {
+  z-index: 1;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -154,7 +166,7 @@
 .pg-btn-level {
   flex: 1;
   min-width: 140px;
-  background: transparent;
+  background: var(--pg-surface);
   border: 1px solid var(--pg-border);
   border-radius: var(--pg-radius);
   color: var(--pg-muted);
@@ -174,7 +186,7 @@
   color: var(--theme-color);
 }
 .pg-btn-level--active {
-  background: color-mix(in srgb, var(--theme-color) 8%, transparent);
+  background: color-mix(in srgb, var(--theme-color) 8%, var(--pg-surface));
 }
 
 .pg-btn-desc {
@@ -219,6 +231,7 @@
   border: 1px solid;
   padding: 0.5rem 1rem;
   border-radius: var(--pg-radius);
+  background: var(--pg-surface);
 }
 
 /*  START BUTTON  */
@@ -226,7 +239,7 @@
   font-family: var(--pg-font-display);
   font-size: 0.65rem;
   letter-spacing: 0.15em;
-  background: transparent;
+  background: var(--pg-surface);
   border: 1px solid;
   border-radius: var(--pg-radius);
   padding: 1rem 2.5rem;
@@ -351,7 +364,7 @@
 
 .pg-cell--clickable:hover {
   background: color-mix(in srgb, var(--theme-color) 20%, var(--theme-dim)) !important;
-  box-shadow: 0 0 8px 1px color-mix(in srgb, var(--theme-color) 40%, transparent) !important;
+  box-shadow: 0 0 8px 1px color-mix(in srgb, var(--theme-color) 40%, var(--pg-surface)) !important;
 }
 
 .pg-cell--selected {
@@ -363,7 +376,7 @@
   font-family: var(--pg-font-display);
   font-size: 0.55rem;
   letter-spacing: 0.15em;
-  background: transparent;
+  background: var(--pg-surface);
   border: 1px solid;
   border-radius: var(--pg-radius);
   padding: 0.85rem 2rem;
@@ -375,7 +388,7 @@
   cursor: not-allowed;
 }
 .pg-submit-btn:not(:disabled):hover {
-  background: color-mix(in srgb, var(--theme-color) 10%, transparent);
+  background: color-mix(in srgb, var(--theme-color) 10%, var(--pg-surface));
 }
 
 /*  BACK BUTTON  */
@@ -383,7 +396,7 @@
   font-family: var(--pg-font-display);
   font-size: 0.4rem;
   letter-spacing: 0.15em;
-  background: transparent;
+  background: var(--pg-surface);
   border: 1px solid var(--pg-border);
   border-radius: var(--pg-radius);
   color: var(--pg-muted);

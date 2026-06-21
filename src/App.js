@@ -213,7 +213,7 @@ export default function App() {
     <div className="pg-root" style={{ '--theme-color': theme.lit, '--theme-bg': theme.bg, '--theme-dim': theme.dim }}>
       {/* scanlines overlay */}
       <div className="pg-scanlines" aria-hidden="true" />
-
+      <div className="hero-bg-grid"></div>
       {/* Nav */}
       <nav className="pg-nav">
         <span className="pg-nav-brand" onClick={goMenu} style={{ color: theme.lit, textShadow: `0 0 10px ${theme.lit}` }}>
@@ -293,6 +293,8 @@ export default function App() {
           </button>
           <p className="pg-designed-by">
             Designed by <a href="https://sprithvi10.github.io/seg3125-portfolio/" style={{ color: theme.lit }}>Prithviraj Sowdermett</a> · SEG3125 · uOttawa
+            <br />
+            Built with React, HTML, CSS, JavaScript & Bootstrap 5
           </p>
         </div>
       )}
