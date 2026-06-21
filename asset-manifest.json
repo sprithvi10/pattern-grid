@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pattern-grid/static/css/main.4b2783b3.css",
-    "main.js": "/pattern-grid/static/js/main.e5c4cf60.js",
+    "main.css": "/pattern-grid/static/css/main.f37235e4.css",
+    "main.js": "/pattern-grid/static/js/main.281d0e2e.js",
     "index.html": "/pattern-grid/index.html",
-    "main.4b2783b3.css.map": "/pattern-grid/static/css/main.4b2783b3.css.map",
-    "main.e5c4cf60.js.map": "/pattern-grid/static/js/main.e5c4cf60.js.map"
+    "main.f37235e4.css.map": "/pattern-grid/static/css/main.f37235e4.css.map",
+    "main.281d0e2e.js.map": "/pattern-grid/static/js/main.281d0e2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b2783b3.css",
-    "static/js/main.e5c4cf60.js"
+    "static/css/main.f37235e4.css",
+    "static/js/main.281d0e2e.js"
   ]
 }
